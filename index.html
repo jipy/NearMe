@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- ====================================
+    LEAFLET 
+    ==================================== -->
+    <!-- https://cdnjs.com/libraries/leaflet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css">
+    <!-- ====================================== -->
+    
+    <!-- ====================================
+    ANGULAR JS 
+    ==================================== -->
+    <script src="js/vendor/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+    <!-- ====================================== -->
+
+  </head>
+  <body ng-app="NearMeApp">
+    <div ng-view></div>
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
+
+    <!-- Directives -->
+    
+    <!-- Services -->
+    <script src="js/services/places.js"></script>
+
+    <!-- ====================================
+    LEAFLET DIRECTIVES 
+    ==================================== -->
+    <!-- https://cdnjs.com/libraries/leaflet -->
+    <!-- https://tombatossals.github.io/angular-leaflet-directive/#!/ -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet-src.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+    <script src="js/vendor/angular-leaflet-directive.min.js"></script>
+    <!-- ====================================== -->
+    
+    <script src="js/vendor/helpers.js"></script>
+
+  </body>
+</html>
